@@ -1,0 +1,27 @@
+\documentclass{ctexbeamer}
+%%% 宏包设置 -------------------------------------------------------------------
+\ctexset{
+today=old
+}
+
+\usetheme{Darmstadt}
+\title{Personal Overview}
+\author{郑雪珂}
+\begin{document}
+%%% 标题页 ---------------------------------------------------------------------
+\frame{\titlepage}
+%%% 正文部分 -------------------------------------------------------------------
+
+%%%% 目录明暗交替 ---------------------------------------------------------------
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+\input{chap/01.comefrom.tex}
+\input{chap/03.acknowledgements.tex}
+\end{document}
