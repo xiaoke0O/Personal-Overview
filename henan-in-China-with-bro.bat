@@ -5,7 +5,7 @@ gmt begin map-out/Henan-in-China-with-bro-JM png,pdf
     gmt basemap -Lg85/17.5+c17.5+w800k+f+u -TdjLT+w1.5c+l+o0.75c --FONT_ANNOT_PRIMARY=4p
     gmt plot CN-border-La.gmt -W0.1p
     @REM gmt plot CN-Rivers.dat -W0.1p,blue
-    gmt plot Henan-border-La.dat -W0.2p,red
+    gmt plot Henan-border-L1.dat -W0.2p,red
 
     @REM 绘制南海区域
     gmt inset begin -DjRB+w1.8c/2.2c -F+p0.5p
